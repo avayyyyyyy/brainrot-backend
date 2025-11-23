@@ -1,0 +1,32 @@
+{
+  "name": "brainrot-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "format": "prettier --write ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "4.17.1",
+    "@types/node": "^22.10.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "4.17.1",
+    "fft.js": "^4.0.4",
+    "onnxruntime-node": "^1.23.2",
+    "openai": "^6.9.1",
+    "ts-node": "^10.9.2"
+  }
+}
